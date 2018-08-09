@@ -19,7 +19,23 @@ body {
   /* border: 5px solid red; */
   }
 
-.clock {
+  .clock-inner {
+    border: 7px solid #E0E0E0;
+
+    height: 85%;
+    width: 85%;
+
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    margin: auto;
+    position: absolute;
+
+    text-align: center;
+  }
+
+.clock-outer {
   height: 50%;
   width: 33%;
   top: 0;
@@ -38,14 +54,14 @@ body {
   right: 0;
   display: table;
 
+  text-align: center;
+
   border-radius: 0 0 10px 10px;
 }
 
-.clock, .links {
+.clock-outer, .links {
   background-color: #ffffff;
-
   left: 0;
-  text-align: center;
   margin: auto;
   position: absolute;
 }
