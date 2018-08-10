@@ -25,10 +25,12 @@ $(document).ready(function() {
 
   if (h >= '21') {
     // $('body').toggleClass('dark');
+    // DEBUG:
     $('body').removeClass('dark');
   }
   else if (h >= '07') {
     // $('body').removeClass('dark');
+    // DEBUG:
     $('body').toggleClass('dark');
   }
 });
