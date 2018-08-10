@@ -24,13 +24,9 @@ $(document).ready(function() {
   m = addZero(d.getMinutes());
 
   if (h >= '21') {
-    // $('body').toggleClass('dark');
-    // DEBUG:
-    $('body').removeClass('dark');
+    $('body').toggleClass('dark');
   }
   else if (h >= '07') {
-    // $('body').removeClass('dark');
-    // DEBUG:
-    $('body').toggleClass('dark');
+    $('body').removeClass('dark');
   }
 });
