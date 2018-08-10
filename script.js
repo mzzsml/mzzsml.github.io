@@ -16,17 +16,28 @@ function timeNow() {
   document.getElementById("clock").innerHTML = h + ':' + m;
 }
 
-
-//quando è sera imposta lo sfondo scuro, mentre quando è giorno ritorna chiaro
-$(document).ready(function() {
-  d = new Date();
-  h = addZero(d.getHours());
-  m = addZero(d.getMinutes());
-
-  if (h >= '21') {
-    $('body').toggleClass('dark');
-  }
-  else if (h >= '07') {
-    $('body').removeClass('dark');
-  }
+$(document).ready(function(){
+  $(document).on("mousedown",function(e){
+    if( e.button == 2 ) {
+      $('body').toggleClass('dark');
+      return false;
+    }
+    return true;
+  });
 });
+
+
+// NOTE: non va (manca autoupdate)
+//quando è sera imposta lo sfondo scuro, mentre quando è giorno ritorna chiaro
+// $(document).ready(function() {
+//   d = new Date();
+//   h = addZero(d.getHours());
+//   m = addZero(d.getMinutes());
+//
+//   if (h >= '21') {
+//     $('body').toggleClass('dark');
+//   }
+//   else if (h >= '07') {
+//     $('body').removeClass('dark');
+//   }
+// });
