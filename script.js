@@ -1,4 +1,4 @@
-var d, h, m;
+let d, h, m;
 var timeout = 100;
 
 window.onload = function() { setInterval(timeNow, timeout) }
@@ -13,5 +13,22 @@ function timeNow() {
   h = addZero(d.getHours());
   m = addZero(d.getMinutes());
 
-  document.getElementById("clock").innerHTML = h + '' + m;
+  document.getElementById("clock").innerHTML = h + ':' + m;
 }
+
+
+//quando è sera imposta lo sfondo scuro, mentre quando è giorno ritorna chiaro
+$(document).ready(function() {
+  d = new Date();
+  h = addZero(d.getHours());
+  m = addZero(d.getMinutes());
+
+  if (h >= '21') {
+    // $('body').toggleClass('dark');
+    $('body').removeClass('dark');
+  }
+  else if (h >= '07') {
+    // $('body').removeClass('dark');
+    $('body').toggleClass('dark');
+  }
+});
