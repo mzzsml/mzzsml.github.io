@@ -10,13 +10,19 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 80%;
+  height: 85%;
   width: 85%;
   margin: auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   border-radius: 10px;
   background-color: #ffffff;
   }
+
+#clock {
+  text-align:center;
+  vertical-align: middle;
+  display: table-cell;
+}
 
 .clock-inner {
   border: 7px solid #E0E0E0;
@@ -25,7 +31,7 @@ body {
   bottom: 10px;
   right: 10px;
   margin: auto;
-  text-align: center;
+  display: table;
   position: relative;
   float: left;
   top: 50%;
