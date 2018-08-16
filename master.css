@@ -90,7 +90,12 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-.social, .entertainment, .git, .shopping, .personal {
+.social,
+.entertainment,
+.git,
+.shopping,
+.personal,
+.fun {
   width: auto;
   display: table-cell;
   vertical-align: middle;
