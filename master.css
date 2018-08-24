@@ -8,7 +8,33 @@ body {
 }
 
 body.dark {
-  background-color: #282a36;
+  /* background-color: #282a36; */
+  background-color: #37474F;
+}
+
+.container.dark {
+  background-color: #263238;
+  color: #F5F5F5;
+}
+
+.clock-outer.dark, .links.dark {
+  background-color: #263238;
+}
+
+.clock-outer.dark {
+  color: #1eb980;
+}
+
+.clock-inner.dark {
+  border: 7px solid #37474F;
+}
+
+h1.dark {
+  color: #1eb980;
+}
+
+a:link.dark, a:visited.dark {
+  color: #ffffff;
 }
 
 .container {

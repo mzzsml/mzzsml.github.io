@@ -20,6 +20,13 @@ $(document).ready(function(){
   $(document).on("mousedown",function(e){
     if( e.button == 2 ) {
       $('body').toggleClass('dark');
+      $('.container').toggleClass('dark');
+      $('.clock-outer').toggleClass('dark');
+      $('.links').toggleClass('dark');
+      $('h1').toggleClass('dark');
+      $('a:link').toggleClass('dark');
+      $('a:visited').toggleClass('dark');
+      $('.clock-inner').toggleClass('dark');
       return false;
     }
     return true;
