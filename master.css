@@ -10,6 +10,7 @@ body {
 body.dark {
   /* background-color: #282a36; */
   background-color: #37474F;
+  /* font-family: 'VT323', monospace; */
 }
 
 .container.dark {
@@ -31,6 +32,7 @@ body.dark {
 
 h1.dark {
   color: #1eb980;
+  /* font-size: 30px; */
 }
 
 a:link.dark, a:visited.dark {
@@ -50,6 +52,12 @@ a:link.dark, a:visited.dark {
   border-radius: 10px;
   background-color: #ffffff;
   }
+
+.container,
+.clock-outer,
+.links {
+  transition: 0.5s;
+}
 
 #clock {
   text-align:center;
