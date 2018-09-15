@@ -107,8 +107,7 @@ a:link, a:visited {
 .social,
 .entertainment,
 .git,
-.personal,
-.fun {
+.personal {
     width: auto;
     display: table-cell;
     vertical-align: middle;
