@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" oncontextmenu="return false;">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js" charset="utf-8"></script>
     <script src="script.js" charset="utf-8"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-    <link rel="stylesheet" href="master.css">
-
-    <meta charset="utf-8">
-
-    <title>strtpg</title>
+    <title>[strtpg]</title>
   </head>
   <body>
+
+    <script>
+      particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.js loaded.');
+      });
+    </script>
+
+    <div id="particles-js"></div>
+
     <div class="container">
 
-      <div class="clock-outer">
-        <div class="clock-inner">
-          <p id="clock"></p>
+      <!-- <div id="particles-js"></div> -->
+
+
+      <div class="line">
+
+        <div class="clock-square">
+          <div id="clock"></div>
+        </div>
+
+        <div class="square">
+          <div class="weather-header">[weather]</div>
+          <div class="weather">meteo</div>
+        </div>
+
+        <div class="bookmark square">
+          <div class="bookmark-header">[personal]</div>
+          <div class="bookmark-body">
+            <a class="link" href="https://mail.protonmail.com">pm.me</a>
+            <a class="link" href="https://mail.google.com">gmail</a>
+            <a class="link" href="https://gitlab.com">gitlab</a>
+            <a class="link" href="https://github.com">github</a>
+          </div>
         </div>
       </div>
 
-      <div class="links">
-        <div class="social">
-          <ul>
-            <li><h1 class="header">social</h1></li>
-            <li><a href="https://reddit.com">Front page</a></li>
-            <li><a href="https://twitter.com">Twitter</a></li>
-            <li><a href="https://discordapp.com/channels/@me">Discord</a></li>
-          </ul>
+      <div class="bookmarks line">
+
+        <div class="bookmark square">
+          <div class="bookmark-header">[social]</div>
+          <div class="bookmark-body">
+            <a class="link" href="https://reddit.com">front page</a>
+            <a class="link" href="https://twitter.com">twitter</a>
+            <a class="link" href="https://discordapp.com/channels/@me">discord</a>
+          </div>
         </div>
 
-        <div class="entertainment">
-          <ul>
-            <li><h1 class="header">entertainment</h1></li>
-            <li><a href="https://youtube.com">YouTube</a></li>
-            <li><a href="https://twitch.tv/directory/following">Twitch</a></li>
-            <li><a href="https://open.spotify.com/browse/featured">Spotify</a></li>
-          </ul>
+        <div class="bookmark square">
+          <div class="bookmark-header">[entertainment]</div>
+          <div class="bookmark-body">
+            <a class="link" href="https://youtube.com">youtube</a>
+            <a class="link" href="https://twitch.tv/directory/following">twitch</a>
+            <a class="link" href="https://open.spotify.com/browse/featured">spotify</a>
+          </div>
         </div>
 
-        <div class="personal">
-          <ul>
-            <li><h1 class="header">personal</h1></li>
-            <li><a href="https://mail.protonmail.com">ProtonMail</a></li>
-            <li><a href="https://www.inbank.it">Inbank</a></li>
-            <!-- <li><a href="https://www.carteprepagate.cc">Carteprepagate</a></li> -->
-            <li><a href="https://mail.google.com">Gmail</a></li>
-            <li><a href="https://gitlab.com">GitLab</a></li>
-            <li><a href="https://github.com">GitHub</a></li>
-          </ul>
+        <div class="bookmark square">
+          <div class="bookmark-header">[ctf]</div>
+          <div class="bookmark-body">
+          <a class="link" href="https://www.vulnhub.com/">vuln hub</a>
+          <a class="link" href="https://www.hackthebox.eu/home">hack the box</a>
+          <a class="link" href="http://pwnable.kr/">pwnable.kr</a>
+          <a class="link" href="http://pwnable.tw/">pwnable.tw</a>
+          <a class="link" href="https://www.hackthissite.org/">hack this site</a>
+          <a class="link" href="https://capturetheflag.withgoogle.com/#beginners/">google ctf</a>
+          <!-- <a class="link" href="https://www.codewars.com/dashboard">Codewars</a> -->
+          </div>
         </div>
 
-        <div class="misc">
-          <ul>
-            <li><h1 class="header">misc</h1></li>
-            <li><a href="https://concorsi.difesa.it/ei/vfp1/2018/Pagine/home.aspx#">Concorso VFP1</a></li>
-            <li><a href="https://amazon.it">Amazon</a></li>
-            <li><a href="https://www.paypal.com">PayPal</a></li>
-          </ul>
+        <div class="bookmark square">
+          <div class="bookmark-header">[misc]</div>
+          <div class="bookmark-body">
+            <a class="link" href="https://concorsi.difesa.it/ei/vfp1/2018/Pagine/home.aspx#">esercito</a>
+            <a class="link" href="https://amazon.it">amazon</a>
+            <a class="link" href="https://www.paypal.com">paypal</a>
+          </div>
         </div>
       </div>
     </div>
