@@ -107,14 +107,14 @@ body {
   margin: 0em .5em;
 }
 
-.bookmark-header {
+.square-header {
   font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
   margin: 0em 0em .35em 0em;
 }
 
-.bookmark-body {
+.square-body {
   overflow-y: scroll;
   height: 80%;
   vertical-align: top;
