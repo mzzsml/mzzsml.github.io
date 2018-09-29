@@ -33,30 +33,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.weather-square {
-  padding: 1em;
-  background-color: #263238;
-  border-radius: 3px;
-  font-family: "Roboto Mono";
-  font-size: .85rem;
-  /* width: 50%; */
-  width: 55%; /* ma porca puttana */
-  height: 10em;
-  margin: 0em .5em;
-}
-
-.weather-header {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #fff;
-  margin: 0em 0em .35em 0em;
-}
-
-.weather {
-  height: 80%;
-  vertical-align: top;
-}
-
 #particles-js {
   width: 100%;
   height: 100vh;
