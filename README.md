@@ -1,3 +1,3 @@
 # startpage
 
-![alt text](screen.png)
+![image](screen.PNG)
