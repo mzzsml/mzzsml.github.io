@@ -51,27 +51,6 @@ body {
     margin: 1em 0em;
 }
 
-@media only screen and (max-width: 960px) {
-  .container {
-    height: auto;
-  }
-  .container > .line {
-    flex-direction: column;
-    width: 60%;
-  }
-  .line > .square {
-    width: auto;
-    margin: 1em 0em;
-  }
-  .line > .weather-square{
-    width: auto;
-    margin: 1em 0em;
-  }
-  #particles-js {
-    height: auto;
-  }
-}
-
 .square {
   padding: 1em;
   background-color: #263238;
@@ -105,4 +84,25 @@ a {
 
 a:hover {
   color: #fff;
+}
+
+@media only screen and (max-width: 960px) {
+  .container {
+    height: auto;
+  }
+  .container > .line {
+    flex-direction: column;
+    width: 60%;
+  }
+  .line > .square {
+    width: auto;
+    margin: 1em 0em;
+  }
+  .line > .weather-square{
+    width: auto;
+    margin: 1em 0em;
+  }
+  #particles-js {
+    height: auto;
+  }
 }
