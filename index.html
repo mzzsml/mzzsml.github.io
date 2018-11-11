@@ -6,10 +6,6 @@
       shrink-to-fit=no">
 
     <link rel="stylesheet" href="style.css">
-
-    <!-- particles js library -->
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
-      charset="utf-8"></script>
     <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/simplebar@2.4.3/dist/simplebar.css">
     <script src="https://cdn.jsdelivr.net/npm/simplebar@2.4.3/dist/simplebar.js"></script>
@@ -19,108 +15,95 @@
     <title>[strtpg]</title>
   </head>
   <body>
+    <div class="container">
 
-    <script>
-      particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('particles.js loaded.');
-      });
-    </script>
+      <div class="line">
+        <div class="square">
+          <div id="clock"></div>
+        </div>
 
-    <div id="particles-js">
-      <div class="container">
-
-        <div class="line">
-          <div class="square">
-            <div id="clock"></div>
-          </div>
-
-          <!-- personal -->
-          <div class="square">
-            <div class="square-header">[personal]</div>
-            <div class="square-body" data-simplebar="init">
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://mail.protonmail.com">pm.me</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://mail.google.com">gmail</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://vault.bitwarden.com/#/vault">bitwarden</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://mega.nz">mega</a>
-            </div>
-          </div>
-
-          <!-- misc -->
-          <div class="square">
-            <div class="square-header">[misc]</div>
-            <div class="square-body" data-simplebar="init">
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://concorsi.difesa.it/ei/vfp1/2018/Pagine/home.aspx#">esercito</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://amazon.it">amazon</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://www.paypal.com">paypal</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://gitlab.com">gitlab</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://github.com">github</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://codewars.com">codewars</a>
-            </div>
+        <!-- personal -->
+        <div class="square">
+          <div class="square-header">[personal]</div>
+          <div class="square-body" data-simplebar="init">
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://mail.protonmail.com">pm.me</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://mail.google.com">gmail</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://vault.bitwarden.com/#/vault">bitwarden</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://mega.nz">mega</a>
           </div>
         </div>
 
-        <div class="bookmarks line">
-          <!-- social -->
-          <div class="square">
-            <div class="square-header">[social]</div>
-            <div class="square-body" data-simplebar="init">
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://reddit.com">front page</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://twitter.com">twitter</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-              href="https://discordapp.com/channels/@me">discord</a>
-            </div>
+        <!-- misc -->
+        <div class="square">
+          <div class="square-header">[misc]</div>
+          <div class="square-body" data-simplebar="init">
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://concorsi.difesa.it/ei/vfp1/2018/Pagine/home.aspx#">esercito</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://amazon.it">amazon</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://gitlab.com">gitlab</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://github.com">github</a>
           </div>
+        </div>
+      </div>
 
-          <!-- entertainment -->
-          <div class="square">
-            <div class="square-header">[entertainment]</div>
-            <div class="square-body" data-simplebar="init">
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://youtube.com">youtube</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://twitch.tv/directory/following">twitch</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://open.spotify.com/browse/featured">spotify</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://primevideo.com">prime video</a>
-            </div>
+      <div class="bookmarks line">
+        <!-- social -->
+        <div class="square">
+          <div class="square-header">[social]</div>
+          <div class="square-body" data-simplebar="init">
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://reddit.com">front page</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://twitter.com">twitter</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+            href="https://discordapp.com/channels/@me">discord</a>
           </div>
+        </div>
 
-          <!-- ctf -->
-          <div class="square">
-            <div class="square-header">[ctf]</div>
-            <div class="square-body" data-simplebar="init">
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="http://captf.com/practice-ctf/">list</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://2018game.picoctf.com/news">picoctf</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="http://pwnable.tw/">pwnable.tw</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="http://pwnable.kr/">pwnable.kr</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://www.hackthissite.org/">hack this site</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="http://overthewire.org/wargames/">overthewire</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://g.co/ctf">google ctf</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://www.vulnhub.com/">vuln hub</a>
-              <a target="_blank" rel="noopener noreferrer" class="link"
-                href="https://www.hackthebox.eu/home">hack the box</a>
-            </div>
+        <!-- entertainment -->
+        <div class="square">
+          <div class="square-header">[entertainment]</div>
+          <div class="square-body" data-simplebar="init">
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://youtube.com">youtube</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://twitch.tv/directory/following">twitch</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://open.spotify.com/browse/featured">spotify</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://primevideo.com">prime video</a>
+          </div>
+        </div>
+
+        <!-- ctf -->
+        <div class="square">
+          <div class="square-header">[ctf]</div>
+          <div class="square-body" data-simplebar="init">
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="http://captf.com/practice-ctf/">list</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://2018game.picoctf.com/news">picoctf</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="http://pwnable.tw/">pwnable.tw</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="http://pwnable.kr/">pwnable.kr</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://www.hackthissite.org/">hack this site</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="http://overthewire.org/wargames/">overthewire</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://g.co/ctf">google ctf</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://www.vulnhub.com/">vuln hub</a>
+            <a target="_blank" rel="noopener noreferrer" class="link"
+              href="https://www.hackthebox.eu/home">hack the box</a>
           </div>
         </div>
       </div>
