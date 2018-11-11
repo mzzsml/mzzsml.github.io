@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-  background-color: #282c37; /* TODO: cambiare colore, mettere uno piu' scuro */
-  /* background-color: #37474F; */
+  /* background-color: #282c37; */
+  background-image: url("winter.jpg");
   margin: 0px;
   user-select: none;
   -moz-user-select: none;
@@ -54,7 +54,7 @@ body {
 .square {
   padding: 1em;
   background-color: #263238;
-  border-radius: 3px;
+  border-radius: 10px;
   font-family: "Roboto Mono";
   font-size: .85rem;
   width: 25%;
