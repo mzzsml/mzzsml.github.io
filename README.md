@@ -1,3 +1,3 @@
 # startpage
 
-![image](screen.PNG)
+![image](./pictures/screen.png)

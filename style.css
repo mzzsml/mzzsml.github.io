@@ -2,7 +2,10 @@
 
 body {
   /* background-color: #282c37; */
-  background-image: url("winter.jpg");
+  /* background-image: url("./pictures/winter.jpg"); */
+  background-image: url("./pictures/scifi.jpg");
+  background-size: 100%;
+
   margin: 0px;
   user-select: none;
   -moz-user-select: none;
@@ -15,8 +18,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-  position: absolute;
 }
 
 #clock {
@@ -80,19 +81,16 @@ a:hover {
   .container {
     height: auto;
   }
-  .container > .line {
+  .container > .bookmarks {
     flex-direction: column;
     width: 60%;
   }
-  .line > .square {
+  .bookmarks > .square {
     width: auto;
     margin: 1em 0em;
   }
-  .line > .weather-square{
+  .bookmarks > .weather-square{
     width: auto;
     margin: 1em 0em;
-  }
-  #particles-js {
-    height: auto;
   }
 }
