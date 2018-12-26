@@ -44,7 +44,7 @@ body {
 
 .square {
   padding: 1em;
-  /* background-color: #263238; */
+  background-color: #263238;
   border-radius: 10px;
   font-family: "Roboto Mono";
   font-size: .85rem;
@@ -52,8 +52,8 @@ body {
   height: 10em;
   margin: 0em .5em;
 
-  -webkit-backdrop-filter: blur(1.5em);
-  backdrop-filter: blur(1.5em);
+  /* -webkit-backdrop-filter: blur(1.5em);
+  backdrop-filter: blur(1.5em); */
 }
 
 .square-header {
