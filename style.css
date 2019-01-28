@@ -2,8 +2,7 @@
 
 body {
   /* background-color: #282c37; */
-  /* background-image: url("./pictures/winter.jpg"); */
-  background-image: url("./pictures/scifi.jpg");
+  background-image: url("./pictures/forest_flat.png");
   background-size: 100%;
 
   margin: 0px;
@@ -45,6 +44,7 @@ body {
 .square {
   padding: 1em;
   background-color: #263238;
+  /* background-color: #ecf0f1; */
   border-radius: 10px;
   font-family: "Roboto Mono";
   font-size: .85rem;
