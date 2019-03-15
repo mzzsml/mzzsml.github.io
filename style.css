@@ -25,8 +25,9 @@ body {
 
 .square {
   padding: 1em;
-  font-family: "Roboto Mono";
-  font-size: .85rem;
+  /* font-family: "Roboto Mono"; */
+  font-family: "Product Sans";
+  font-size: 1rem;
   width: 100%;
   height: 20em;
   margin: 0em .5em;
