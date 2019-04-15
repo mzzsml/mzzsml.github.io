@@ -56,3 +56,27 @@ a {
 a:hover {
   color: #fff;
 }
+
+.searchbox {
+  background: #263238;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  width: 632px;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 5px 4px 0 16px;
+  padding-left: 20px;
+  line-height: 34px;
+  color: #fff;
+}
+
+form { width: 100%; }
