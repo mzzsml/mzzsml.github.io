@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 body {
-	background-color: #2a2e39;
+	background-color: #2e3440;
   margin: 0px;
   user-select: none;
   -moz-user-select: none;
@@ -65,8 +65,10 @@ a {
 }
 
 a:hover {
-  color: #fff;
-  background-color: #3b4252;
+  color: #eceff4;
+  /* color: #fff; */
+  background-color: #434c5e;
+  /* background-color: #3b4252; */
   border-radius: 0.5em;
 }
 
