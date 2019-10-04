@@ -1,65 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1,
-      shrink-to-fit=no">
-      <title>$HOME</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-  </head>
-  <body>
-    <div class="container">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>$HOME</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
 
-      <div class="bookmarks">
+		<div class="searchDiv">
+			<form action="https://www.duckduckgo.com/?q" class="searchform" method="get" name="searchform" target="_blank">
+				<input name="sitesearch" type="hidden" value="">
+				<input autocomplete="off" class="search" name="q" autofocus placeholder="enter the magic world of the internet"
+					required="required" type="text">
+			</form>
+		</div>
 
-        <!-- personal -->
-        <div class="square">
-          <div class="square-header">/personal/</div>
-          <div class="square-body">
-            <a rel="noopener noreferrer" href="https://reddit.com">front page</a>
-            <a rel="noopener noreferrer" href="https://twitter.com">twitter</a>
-            <a rel="noopener noreferrer" href="https://mail.protonmail.com">pm.me</a>
-            <a rel="noopener noreferrer" href="https://inbank.it">inbank</a>
-            <a rel="noopener noreferrer" href="https://feedly.com/i/my">feedly</a>
-            <a rel="noopener noreferrer" href="https://vault.bitwarden.com/#/vault">bitwarden</a>
-            <a rel="noopener noreferrer"
-              href="https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId">aws</a>
-            <a rel="noopener noreferrer"
-              href="https://www.kaggle.com/">kaggle</a>
-          </div>
-        </div>
+		<div class="bookmarks">
 
-        <!-- entertainment -->
-        <div class="square">
-          <div class="square-header">/entertainment/</div>
-          <div class="square-body">
-            <a rel="noopener noreferrer" href="https://www.youtube.com/feed/subscriptions">youtube</a>
-            <a rel="noopener noreferrer" href="https://twitch.tv/directory/following">twitch</a>
-            <a rel="noopener noreferrer" href="https://open.spotify.com/browse/featured">spotify</a>
-          </div>
-        </div>
+			<!-- personal -->
+			<div class="square">
+				<div class="square-header">/personal/</div>
+				<div class="square-body">
+					<a rel="noopener noreferrer" href="https://reddit.com">front page</a>
+					<a rel="noopener noreferrer" href="https://twitter.com">twitter</a>
+					<a rel="noopener noreferrer" href="https://mail.protonmail.com">pm.me</a>
+					<a rel="noopener noreferrer" href="https://inbank.it">inbank</a>
+					<a rel="noopener noreferrer" href="https://feedly.com/i/my">feedly</a>
+					<a rel="noopener noreferrer" href="https://vault.bitwarden.com/#/vault">bitwarden</a>
+					<a rel="noopener noreferrer"
+						href="https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId">aws</a>
+					<a rel="noopener noreferrer" href="https://www.kaggle.com/">kaggle</a>
+				</div>
+			</div>
 
-        <!-- ctf -->
-        <div class="square">
-          <div class="square-header">/ctf/</div>
-          <div class="square-body">
-            <a rel="noopener noreferrer" href="http://captf.com/practice-ctf/">list</a>
-            <!-- <a rel="noopener noreferrer"
-                          href="https://2018game.picoctf.com/problems">picoctf</a> -->
-            <a rel="noopener noreferrer" href="http://pwnable.tw/">pwnable.tw</a>
-            <a rel="noopener noreferrer" href="http://pwnable.kr/">pwnable.kr</a>
-            <a rel="noopener noreferrer" href="http://overthewire.org/wargames/">overthewire</a>
-            <a rel="noopener noreferrer" href="https://www.hackthebox.eu/home">hack the box</a>
-          </div>
-        </div>
-      </div>
+			<!-- entertainment -->
+			<div class="square">
+				<div class="square-header">/entertainment/</div>
+				<div class="square-body">
+					<a rel="noopener noreferrer" href="https://www.youtube.com/feed/subscriptions">youtube</a>
+					<a rel="noopener noreferrer" href="https://twitch.tv/directory/following">twitch</a>
+					<a rel="noopener noreferrer" href="https://open.spotify.com/browse/featured">spotify</a>
+				</div>
+			</div>
 
-                  <!-- <div class="user_input">
-                    <p class="user_input__label">You entered:</p>
-                    <p id="user_input" class="user_input__value">some keys</p>
-                  </div> -->
-                  
-    </div>
-  </body>
+			<!-- ctf -->
+			<div class="square">
+				<div class="square-header">/ctf/</div>
+				<div class="square-body">
+					<a rel="noopener noreferrer" href="http://captf.com/practice-ctf/">list</a>
+					<a rel="noopener noreferrer" href="https://2019game.picoctf.com/problems">picoctf</a>
+					<a rel="noopener noreferrer" href="http://pwnable.tw/">pwnable.tw</a>
+					<a rel="noopener noreferrer" href="http://pwnable.kr/">pwnable.kr</a>
+					<a rel="noopener noreferrer" href="http://overthewire.org/wargames/">overthewire</a>
+					<a rel="noopener noreferrer" href="https://www.hackthebox.eu/home">hack the box</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>

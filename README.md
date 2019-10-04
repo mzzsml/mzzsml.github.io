@@ -1,3 +1,3 @@
-# startpage
+# my startpage
 
-![image](./pictures/screen.png)
+![image](./assets/screenshot.png)
