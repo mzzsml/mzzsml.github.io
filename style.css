@@ -70,7 +70,7 @@ a:hover {
   border-radius: 0.5em;
 }
 
-.searchDiv {
+.searchdiv {
   display: flex;
   flex-direction: row;
   justify-content: center;
