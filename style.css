@@ -21,8 +21,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: 50%;
-  height: 17em;
-  /* height: 10em; */
+  height: 13em; /* change this to resize the square box height */
 }
 
 .square {
