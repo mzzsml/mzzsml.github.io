@@ -1,0 +1,16 @@
+body {
+  /* background-color: #212121; */
+  background-color: #191919;
+}
+
+.square {
+  background-color: #4a4a4a;
+}
+
+.square-header {
+  color: #ebcb8b;
+}
+
+a:hover {
+  background-color: #4a4a4a;
+}

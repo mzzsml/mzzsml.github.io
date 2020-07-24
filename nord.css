@@ -1,0 +1,19 @@
+/* 
+ * Nord colorscheme for my startpage
+ */
+
+body {
+  background-color: #2e3440;
+}
+
+.square {
+  background-color: #3b4252;
+}
+
+.square-header {
+  color: #88c0d0;
+}
+
+a:hover {
+  background-color: #434c5e;
+}
